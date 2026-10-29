@@ -1,0 +1,36 @@
+/**
+ * Shared design tokens. Loaded before the existing theme stylesheet.
+ * New components consume these; existing SCSS can adopt them incrementally.
+ */
+:root {
+    --bb-color-pink: #D4AC34;
+    --bb-color-blue: #123326;
+    --bb-color-gold: #8C6A1C;
+    --bb-color-ink: #43433d;
+    --bb-color-paper: #f3ebdc;
+    --bb-color-white: #ffffff;
+    --bb-color-slate: #6E8577;
+    --bb-color-frame: rgb(255 255 255 / 35%);
+    --bb-color-divider: #B8B3A8;
+    --bb-color-inactive: #D9C48A;
+
+    --bb-font-body: "Inter-400", Arial, Helvetica, sans-serif;
+    --bb-font-body-medium: "Inter-500", Arial, Helvetica, sans-serif;
+    --bb-font-heading: "Hamburg-700", Arial, Helvetica, sans-serif;
+    --bb-font-display: "Groundout", Georgia, serif;
+    --bb-font-script: "Brooklyn-700", Georgia, serif;
+    --bb-font-mono: "Roboto-600", "Courier New", monospace;
+
+    --bb-radius-media: 10px;
+    --bb-border-media: 4px;
+    --bb-content-width: 1280px;
+    --bb-gutter-mobile: 16px;
+    --bb-space-section: 80px;
+    --bb-space-section-mobile: 48px;
+    --bb-divider-width: 4px;
+    --bb-divider-height: 2px;
+
+    --bb-motion-duration: 0.42s;
+    --bb-motion-distance: 12px;
+    --bb-motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

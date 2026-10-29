@@ -1,0 +1,410 @@
+.bb-feature {
+    --bb-motion-duration: 0.35s;
+    --bb-feature-image-duration: 0.42s;
+    --bb-motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --bb-feature-fill-duration: 0.45s;
+    --bb-feature-fill-ease: cubic-bezier(0.6, 0, 0.2, 1);
+    --bb-feature-row-space: 24px;
+    --bb-feature-title-size: 56px;
+    --bb-feature-image-ratio: 460 / 266;
+    --bb-feature-image-border: 3px;
+    --bb-feature-image-shadow: 0 2px 12px rgb(0 0 0 / 10%);
+    --bb-feature-surface: var(--bb-color-paper);
+    --bb-feature-divider: var(--bb-color-divider);
+    --bb-feature-inactive: var(--bb-color-inactive);
+    --bb-feature-focus: var(--bb-color-blue);
+    color: var(--bb-color-ink);
+    overflow-anchor: none;
+    /* Contain the shared row slide without widening the mobile page. */
+    overflow-x: clip;
+    padding-block: var(--bb-space-section-mobile);
+    scroll-margin-top: var(--header-height, 0px);
+}
+
+.bb-feature__container {
+    padding-inline: var(--bb-gutter-mobile);
+}
+
+.bb-feature__intro {
+    row-gap: 20px;
+    margin-bottom: var(--bb-space-section-mobile);
+}
+
+.bb-feature__intro-copy,
+.bb-feature__description {
+    font-family: var(--bb-font-body);
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bb-feature__intro-copy {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.bb-feature__intro-copy > :last-child,
+.bb-feature__description > :last-child {
+    margin-bottom: 0;
+}
+
+.bb-feature__item {
+    padding-block: var(--bb-feature-row-space);
+}
+
+/* Keep controls focusable before the shared reveal runs. Keyboard navigation
+   can then scroll an upcoming row into view and trigger its slide-in. */
+.reveal-js .bb-feature__item.reveal-slide {
+    visibility: visible !important; /* Override GSAP's initial inline visibility. */
+}
+
+/* Two offset rows of hard color stops form the 4 x 2 pixel divider. */
+.bb-feature__item + .bb-feature__item {
+    padding-top: calc(var(--bb-feature-row-space) + var(--bb-divider-height));
+    background-image:
+        linear-gradient(90deg, var(--bb-feature-divider) 50%, transparent 50%),
+        linear-gradient(90deg, transparent 50%, var(--bb-feature-divider) 50%);
+    background-size: var(--bb-divider-width) calc(var(--bb-divider-height) / 2);
+    background-position: left top, left calc(var(--bb-divider-height) / 2);
+    background-repeat: repeat-x;
+}
+
+.bb-feature__item:first-child { padding-top: 0; }
+.bb-feature__item:last-child { padding-bottom: 0; }
+
+/* The whole row selects on click (feature-accordion.js), so it all shows the pointer. */
+.bb-feature.is-enhanced .bb-feature__item {
+    cursor: pointer;
+}
+
+.bb-feature__title {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+.bb-feature__trigger {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--bb-color-pink);
+    font-family: var(--bb-font-display);
+    font-size: var(--bb-feature-title-size);
+    font-weight: 400;
+    line-height: 0.8;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: left;
+    overflow-wrap: break-word;
+    cursor: pointer;
+    transition: color var(--bb-motion-duration) var(--bb-motion-ease);
+}
+
+.bb-feature.is-enhanced .bb-feature__trigger[aria-expanded="false"] {
+    color: var(--bb-feature-inactive);
+}
+
+.bb-feature__trigger:hover,
+.bb-feature.is-enhanced .bb-feature__trigger:focus-visible {
+    color: var(--bb-color-pink);
+}
+
+/* A registered color can transition inside a gradient. Without support the
+   closing title changes color immediately; the opening fill is unaffected. */
+@property --bb-feature-fill-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: transparent;
+}
+
+/* The opening title fills with pink from the baseline up. Two text-clipped
+   layers replace the color swap: a pink fill rising over the inactive tint. */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .bb-feature.is-enhanced .bb-feature__label {
+        --bb-feature-fill-color: var(--bb-feature-inactive);
+        display: block;
+        /* The 0.8 line height lets glyphs overhang the box; clipped text needs room. */
+        padding-block: 0.12em;
+        margin-block: -0.12em;
+        color: transparent;
+        background-image:
+            linear-gradient(var(--bb-feature-fill-color), var(--bb-feature-fill-color)),
+            linear-gradient(var(--bb-feature-inactive), var(--bb-feature-inactive));
+        background-repeat: no-repeat;
+        background-position: left bottom, left top;
+        background-size: 100% 0%, 100% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        /* Closing fades the full fill like the original color change, then
+           empties it out of sight so the next opening rises from the baseline. */
+        transition:
+            --bb-feature-fill-color var(--bb-motion-duration) var(--bb-motion-ease),
+            background-size 0s linear var(--bb-motion-duration);
+    }
+
+    .bb-feature.is-enhanced .bb-feature__trigger[aria-expanded="true"] .bb-feature__label,
+    .bb-feature.is-enhanced .bb-feature__trigger:hover .bb-feature__label,
+    .bb-feature.is-enhanced .bb-feature__trigger:focus-visible .bb-feature__label {
+        --bb-feature-fill-color: var(--bb-color-pink);
+        background-size: 100% 100%, 100% 100%;
+        transition: background-size var(--bb-feature-fill-duration) var(--bb-feature-fill-ease);
+    }
+}
+
+.bb-feature__trigger:focus-visible {
+    outline: 2px solid var(--bb-feature-focus);
+    outline-offset: 6px;
+    border-radius: 2px;
+}
+
+.bb-feature__description {
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+}
+
+.bb-feature__description:empty { padding-top: 0; }
+
+.bb-feature__description a {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.bb-feature__description a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+/* The template selects the surface; content fields stay focused on editing. */
+.bb-feature--blue {
+    --bb-feature-surface: var(--bb-color-blue);
+    --bb-heading-color: var(--bb-color-white);
+    --bb-feature-divider: rgb(255 255 255 / 28%);
+    --bb-feature-inactive: rgb(255 30 150 / 40%);
+    --bb-feature-focus: var(--bb-color-white);
+    color: var(--bb-color-white);
+}
+
+/* Rich text inherits the component color despite the theme's element defaults. */
+.bb-feature--blue .bb-feature__intro-copy p,
+.bb-feature--blue .bb-feature__description p,
+.bb-feature--blue .bb-feature__intro-copy a,
+.bb-feature--blue .bb-feature__description a,
+.bb-feature--blue .bb-feature__detail-heading {
+    color: inherit;
+}
+
+/* People share the selection and image behavior, with a richer item header. */
+.bb-feature--people .bb-feature__trigger {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* Keep the final role line aligned when a longer role wraps. */
+    align-items: last baseline;
+    gap: 8px 10px;
+}
+
+.bb-feature__name {
+    max-width: 100%;
+    min-width: 0;
+    line-height: 0.8;
+    letter-spacing: -1px;
+}
+
+.bb-feature__role {
+    flex: 1 1 120px;
+    color: var(--bb-color-white);
+    font-family: var(--bb-font-heading);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.05;
+    letter-spacing: 0;
+    transition: opacity var(--bb-motion-duration) var(--bb-motion-ease);
+}
+
+.bb-feature:not(.bb-feature--blue) .bb-feature__role {
+    color: var(--bb-color-blue);
+}
+
+.bb-feature.is-enhanced .bb-feature__trigger[aria-expanded="false"] .bb-feature__role {
+    opacity: 0.4;
+}
+
+.bb-feature__details:not(:empty) {
+    padding-top: 16px;
+}
+
+.bb-feature__detail + .bb-feature__detail {
+    margin-top: 16px;
+}
+
+.bb-feature__detail-heading {
+    margin: 0;
+    font-family: var(--bb-font-mono);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+}
+
+.bb-feature--people .bb-feature__description {
+    padding-top: 0;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+.bb-feature__media-inner:not(:empty) { padding-bottom: 18px; }
+.bb-feature--people .bb-feature__media-inner:not(:empty) { padding-bottom: 16px; }
+
+.bb-feature__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: var(--bb-feature-image-ratio);
+    object-fit: cover;
+    /* Keep translucent frames from brightening when photos overlap mid-fade. */
+    background-color: var(--bb-feature-surface);
+    border: var(--bb-feature-image-border) solid var(--bb-color-frame);
+    border-radius: var(--bb-radius-media);
+    box-shadow: var(--bb-feature-image-shadow);
+}
+
+/* Optional item video. It sits over the image, which stays as its placeholder
+   until the first frame plays (and throughout for reduced motion or Data Saver). */
+.bb-feature__visual { position: relative; }
+
+.bb-feature__video {
+    display: block;
+    width: 100%;
+    aspect-ratio: var(--bb-feature-image-ratio);
+    object-fit: cover;
+    overflow: hidden;
+    background-color: var(--bb-feature-surface);
+    border: var(--bb-feature-image-border) solid var(--bb-color-frame);
+    border-radius: var(--bb-radius-media);
+    /* Hover and taps belong to the accordion, and hide embedded players' own controls. */
+    pointer-events: none;
+}
+
+.bb-feature__video:first-child { box-shadow: var(--bb-feature-image-shadow); }
+
+.bb-feature__image + .bb-feature__video {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    aspect-ratio: auto;
+    opacity: 0;
+    transition: opacity var(--bb-feature-image-duration) var(--bb-motion-ease);
+}
+
+.bb-feature__image + .bb-feature__video.is-playing { opacity: 1; }
+
+.bb-feature__video--embed { position: relative; }
+
+.bb-feature__video--embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.bb-feature.is-enhanced .bb-feature__media,
+.bb-feature.is-enhanced .bb-feature__panel {
+    overflow: hidden;
+}
+
+/* Open photos cast their shadow outside the height-animated media wrapper. */
+.bb-feature.is-enhanced:not(.is-transitioning) .bb-feature__media[aria-hidden="false"] {
+    overflow: visible;
+}
+
+.bb-feature__stage {
+    position: relative;
+    width: calc(100% - 64px);
+    aspect-ratio: var(--bb-feature-image-ratio);
+    /* One shared shadow stays steady while the photos crossfade. */
+    overflow: visible;
+    border-radius: var(--bb-radius-media);
+    transition: box-shadow var(--bb-feature-image-duration) var(--bb-motion-ease);
+}
+
+.bb-feature__stage:has(.bb-feature__layer[aria-hidden="false"] img),
+.bb-feature__stage:has(.bb-feature__layer[aria-hidden="false"] .bb-feature__video) {
+    box-shadow: var(--bb-feature-image-shadow);
+}
+
+.bb-feature__stage .bb-feature__image,
+.bb-feature__stage .bb-feature__video {
+    box-shadow: none;
+}
+
+.bb-feature__layer {
+    position: absolute;
+    inset: 0;
+}
+
+/* Content remains visible if the enhancement script never initializes. */
+.bb-feature.is-reveal-pending .bb-feature__container {
+    opacity: 0;
+    transform: translateY(var(--bb-motion-distance));
+}
+
+.bb-feature__container {
+    transition:
+        opacity var(--bb-motion-duration) var(--bb-motion-ease),
+        transform var(--bb-motion-duration) var(--bb-motion-ease);
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .bb-feature { --bb-feature-title-size: 64px; }
+}
+
+@media (min-width: 992px) {
+    .bb-feature {
+        --bb-feature-title-size: clamp(72px, 6.389vw, 92px);
+        padding-block: var(--bb-space-section);
+    }
+
+    .bb-feature__container {
+        max-width: calc(var(--bb-content-width) + 2 * var(--bb-gutter-mobile));
+    }
+
+    .bb-feature__intro,
+    .bb-feature__body {
+        --bs-gutter-x: 16px;
+    }
+
+    .bb-feature__intro {
+        margin-bottom: var(--bb-space-section);
+    }
+
+    .bb-feature__intro-copy {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .bb-feature__rail { position: relative; }
+
+    .bb-feature__details:not(:empty) { padding-top: 8px; }
+
+    .bb-feature.is-enhanced .bb-feature__media { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .bb-feature__container,
+    .bb-feature__stage,
+    .bb-feature__video,
+    .bb-feature__trigger,
+    .bb-feature.is-enhanced .bb-feature__trigger .bb-feature__label.bb-feature__label,
+    .bb-feature__role {
+        transition: none;
+    }
+}

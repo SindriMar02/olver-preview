@@ -1,0 +1,26 @@
+{
+ "source": "https://sportbarinn.is/boltinn/",
+ "fetchedAt": "2026-10-29T00:36:01.830Z",
+ "days": [
+  {
+   "date": "2026-10-29",
+   "matches": [
+    {
+     "time": "19:15",
+     "home": "Tindastóll",
+     "away": "Álftanes",
+     "comp": "Körfubolti",
+     "sport": "Körfubolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Everton",
+     "away": "Newcastle",
+     "comp": "Deildabikar",
+     "sport": "Fótbolti"
+    }
+   ]
+  }
+ ],
+ "warnings": []
+}

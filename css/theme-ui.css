@@ -1,0 +1,37 @@
+/* Shared, opt-in formatting for the new homepage components. */
+.bb-heading-line { display: block; }
+.bb-heading-line + br { display: none; }
+.bb-text-gold { color: var(--bb-color-gold); }
+.bb-text-blue { color: var(--bb-color-blue); }
+.bb-text-pink { color: var(--bb-color-pink); }
+.bb-text-white { color: var(--bb-color-white); }
+.bb-type-script {
+    font-family: var(--bb-font-script);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+}
+
+.bb-rich-heading {
+    margin: 0;
+    padding: 0;
+    font-family: var(--bb-font-heading);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.06;
+    color: var(--bb-heading-color, var(--bb-color-gold));
+}
+
+.bb-button--standard a {
+    min-width: 175px;
+    padding: 14px 28px;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .bb-rich-heading {
+        font-size: 32px;
+        line-height: 1.12;
+    }
+}

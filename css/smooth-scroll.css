@@ -1,0 +1,4 @@
+/* Prevent native CSS smoothing from competing with the active wheel tween. */
+html.bb-is-wheel-scrolling {
+    scroll-behavior: auto !important;
+}

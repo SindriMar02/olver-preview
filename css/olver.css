@@ -1,0 +1,100 @@
+/* Ölver re-aim on top of the Boom Ball theme. Tokens only (DESIGN.md); no layout here.
+   Gold #D4AC34 is ~2:1 on paper, so it is a fill: text on it is deep green, and gold text on
+   paper uses the deeper bronze. */
+:root {
+    --olver-gold: #D4AC34;
+    --olver-gold-ink: #7A5C0C;
+    --olver-green: #123326;
+}
+
+/* Gold pills carry green text (white on gold is 2:1). */
+.site-button.pink a,
+.pink a { color: var(--olver-green) !important; }
+.site-button.pink a:hover,
+.site-button.pink a:focus-visible { color: var(--olver-green) !important; }
+
+/* Gold as text on paper → bronze ink; gold stays where it sits on green or film. */
+.bb-feature { --bb-color-pink: var(--olver-gold-ink); }
+.bb-text-pink { color: var(--olver-gold-ink); }
+.bb-scroll-cards .bb-text-pink,
+.hero-banner .bb-text-pink { color: var(--olver-gold); }
+.menu-item a.scrolled:hover,
+.footer-nav .footer-menu-list li a:hover,
+.footer-contact-email:hover,
+.footer-section-content a:hover,
+.copyright-text a:hover { color: var(--olver-gold-ink) !important; }
+
+/* Slice 1: new open-now dot inside the existing header pill. */
+.olver-open {
+    display: none;
+    width: 8px;
+    height: 8px;
+    flex: 0 0 8px;
+    border-radius: 50%;
+    background: #3fbf6f;
+}
+.olver-open[data-open-now="1"] { display: inline-block; }
+
+/* Slice 3: new date heading and text time chip inside the source roster wrappers. */
+.olver-day {
+    font-family: Groundout, Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    color: var(--olver-gold);
+}
+.olver-day span { font-size: 28px; }
+.team-roster--chaos .olver-day { color: var(--olver-green); }
+.olver-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto-600, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--olver-green);
+}
+/* Non-interactive status/price spans reuse the source action pill dimensions.
+   No arrow or hover animation: these report information and are not controls. */
+.site-button .olver-roster-pill {
+    padding: 12px 20px;
+    color: #fff;
+    background-color: var(--olver-green);
+    border-radius: 100px;
+    font-size: 12px;
+    font-family: Inter-600, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border: 0;
+}
+@media screen and (max-width: 1199px) {
+    .site-button .olver-roster-pill { padding: 14px 24px; }
+}
+
+/* Claude: long email must wrap inside its footer column (1000px). */
+.footer-section-content a, .footer-contact-email { overflow-wrap: anywhere; }
+
+/* Claude: giant VS title is text on paper, so bronze ink (gold is fill-only, DESIGN.md). */
+#home-teams .home-teams__title { color: var(--olver-gold-ink); }
+
+/* Claude, guidelines audit 2026-10-29 */
+.site-button.blue a:hover, .site-button.blue a:focus-visible { color: var(--olver-green) !important; }
+#home-preshow, #heimsokn, #efni { scroll-margin-top: var(--header-height, 96px); }
+.team-roster__name, .home-teams__team-title, .modal-section-title { overflow-wrap: break-word; }
+.olver-time, .olver-roster-pill { font-variant-numeric: tabular-nums; }
+.olver-skip:focus { position: fixed !important; top: 12px; left: 12px; z-index: 10001; padding: 10px 16px; background: var(--olver-gold); color: var(--olver-green); border-radius: 100px; }
+.team-roster__head-label { text-transform: none; }  /* "Á honum", not "Á Honum" */
+
+/* Sindri 10-29: hero headline readable (Tanker caps + Icelandic accents collide at BB's .8). */
+.hero-title { line-height: .98; letter-spacing: .01em; }
+/* Live dot sits off the label. */
+.olver-open { margin-right: 10px; vertical-align: 1px; }
+/* Side card: readable pre-title (BB's white sat on cream), bigger title, tight rhythm. */
+.hero-modal-section .modal-hero-column { padding: 14px 16px 16px; }
+.hero-modal-section .modal-pre-title { color: var(--olver-gold-ink); font-size: 12px; letter-spacing: .06em; padding: 0 0 8px; }
+.hero-modal-section .modal-section-title { color: var(--olver-green); font-family: Groundout, Arial, sans-serif; font-size: 26px; line-height: 1; letter-spacing: .01em; }
+@media (max-width: 991px) { .hero-modal-section .modal-section-title { font-size: 20px; } }
+
+/* iOS Safari only fires click on a <div> marked clickable; without this the burger and close did nothing on iPhone
+   (Bootstrap listens on document). Also a 44px hit area. */
+#offcanvas-button, .close-menu, .close-column { cursor: pointer; touch-action: manipulation; }
+#offcanvas-button { min-width: 44px; min-height: 44px; justify-content: center; }

@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leikir á Ölver | Sportbarinn Ölver</title>
+<meta name="description" content="Leikir í beinni á Ölver. Sjáðu leikjaskrána og hafðu samband ef þú saknar leiks eða viðburðar.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script>/* focus-guard, _tools/focus-guard */
+/* focus-guard: a focus ring only for people using a keyboard.
+
+   The bug it ends: a menu, drawer or dialog opens and its FIRST link (or the dialog's close button)
+   is outlined, as if it were selected. Cause: opening code calls first.focus(), or <dialog>.showModal()
+   focuses the first control by itself. When nothing was focused before, the browser decides the ring is
+   wanted. Safari never focuses a button on click and a touch tap never does either, so on iPhone,
+   iPad and Safari the very first tap paints the ring. Chrome with a mouse hides it, which is why it
+   passes the desktop check and then reappears on Sindri's phone.
+
+   How: remember the last input kind on <html data-input="pointer|key"> and let focus-guard.css drop the
+   ring while the last input was a pointer. Keyboard users keep every ring. Load before everything else
+   (inline in <head>, ~400 bytes), no dependencies. Doc: _tools/focus-guard/README.md */
+(function () {
+  var root = document.documentElement;
+  function set(v) { if (root.getAttribute('data-input') !== v) root.setAttribute('data-input', v); }
+  addEventListener('pointerdown', function () { set('pointer'); }, true);
+  addEventListener('keydown', function (e) {
+    if (e.key === 'Shift' || e.key === 'Control' || e.key === 'Alt' || e.key === 'Meta') return;
+    set('key');
+  }, true);
+})();
+
+</script>
+<link rel="stylesheet" href="assets/focus-guard.css">
+<meta name="robots" content="noindex">
+<link rel="preload" href="fonts/Tanker-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="fontawesome/css/solid.min.css">
+<link rel="stylesheet" href="css/site.min.css">
+<link rel="stylesheet" href="css/theme-ui.css">
+<link rel="stylesheet" href="css/smooth-scroll.css">
+<link rel="stylesheet" href="css/olver.css">
+</head>
+<body class="wp-singular page-template page page-template-teams wp-theme-boomball-theme-2026 theme-boomball-theme-2026 woocommerce-no-js">
+<a class="visually-hidden-focusable olver-skip" href="#efni">Fara í efni</a>
+
+        <!--Bootstrap 5 Off-Canvas Menu-->
+        <div class="mobile-slide-menu offcanvas offcanvas-start noise" tabindex="-1" id="offcanvasMenu" aria-label="Valmynd">
+            <div class="offcanvas-header">
+                <div class="new-logo">
+                    <a class="off-logo image100" href="index.html">
+                        <img src="assets/img/logo-gold.webp" alt="Sportbarinn Ölver">
+                    </a>
+                </div>
+                <div class="close-column">
+                    <div class="exit-text">Loka</div>
+                    <div class="close-menu" data-bs-dismiss="offcanvas" aria-label="Loka valmynd" role="button" tabindex="0">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas-body">
+                <div id="mobile-menu">
+                    <ul id="menu-mobile-menu" class="navbar-nav me-auto mb-2 mb-md-0 "><li  id="menu-item-10017" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10017"><a href="leikir.html" class="nav-link ">Leikir</a></li>
+<li  id="menu-item-10016" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10016"><a href="matsedill.html" class="nav-link ">Matseðill</a></li>
+<li  id="menu-item-10015" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10015"><a href="index.html#home-preshow" class="nav-link ">Salir</a></li>
+<li  id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-448"><a href="#heimsokn" class="nav-link ">Heimsókn</a></li>
+</ul>                </div>
+                 <div class="site-button pink text-center off-button"><a href="leikir.html">Leikjaskráin</a></div>
+            </div>
+        </div>
+       
+    <!--Main Navbar & CTA Banner - Sticky Header-->
+    <div class="sticky-top" style="z-index:8000;">
+        <!--Main Navbar-->
+                <div class="main-nav" >
+                <div class="container scroll-header">
+                    <div class="nav-row">
+                        <div class="logo-nav-column">
+                            <a class="header-logo image100" href="index.html">
+                        <img src="assets/img/logo-gold.webp" alt="Sportbarinn Ölver">
+                    </a>
+                        </div>
+                        <div class="menu-nav-column menu-column">
+                            <div class="header-menu capitals">
+                                <ul id="menu-main-menu" class="header-menu-list "><li  id="menu-item-10012" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10012"><a href="leikir.html" class="nav-link ">Leikir</a></li>
+<li  id="menu-item-10013" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10013"><a href="matsedill.html" class="nav-link ">Matseðill</a></li>
+<li  id="menu-item-10014" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-10014"><a href="index.html#home-preshow" class="nav-link ">Salir</a></li>
+<li  id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-155"><a href="#heimsokn" class="nav-link ">Heimsókn</a></li>
+</ul>                            </div>
+                            <div class="cart-menu-wrapper">
+                                                            </div>
+                            <div class="site-button radius100 pink header-button">
+                                <a href="leikir.html" aria-label="Leikjaskráin"><span class="olver-open" data-open-now aria-hidden="true"></span>Leikjaskráin</a>
+                            </div>
+                            <div id="offcanvas-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false" aria-label="Opna valmynd" role="button" tabindex="0">
+                                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        
+            </div>
+    <script>
+        // Set --header-height before the hero banner renders so it doesn't
+        // jump up once the footer scripts run (custom.js keeps it updated after this)
+        (function () {
+            var header = document.querySelector('.sticky-top');
+            if (header) {
+                // Fractional height, matching custom.js; offsetHeight rounds and leaves a sliver above the hero
+                document.documentElement.style.setProperty('--header-height', header.getBoundingClientRect().height + 'px');
+            }
+        })();
+    </script>
+
+    <section class="page-title-section" id="efni" tabindex="-1">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between page-title-info">
+                <div class="col-lg-5">
+                                            <h1 class="page-title-text reveal-up reveal-delay-2">Leikirnir <br><span class="pink-text">í <span class="brook-text">beinni</span></span></h1>
+                                    </div>
+                <div class="col-lg-4">
+                                            <div class="page-title-copy reveal-up reveal-delay-4"><p>Ef þú saknar leiks eða viðburðar sem er ekki á dagskránni sakar ekki að spyrja. Við reynum eftir fremsta megni að uppfylla óskir gesta.</p></div>
+                                    </div>
+                            </div>
+        </div>
+                     <div class="page-title-image reveal-zoom">
+                <img src="assets/img/Nyi-salur2-scaled.webp" alt="Salur með breiðtjöldum á Ölver" width="1500" height="2000">
+            </div>
+            </section><!-- .page-title-section -->
+
+
+<div id="olver-fixtures">
+<section data-fixture-date="2026-10-28" class="team-roster team-roster--llamas">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <div class="team-roster__intro">
+                                            <div class="team-roster__logo image100 reveal-up"><h2 class="olver-day">Miðvikudagur<br><span>28. október</span></h2></div>
+                                                                <div class="team-roster__copy reveal-up reveal-delay-1"><p>6 leikir</p></div>
+                                        <div class="site-button pink team-roster__tickets">
+                        <a href="mailto:sportbarinn@sportbarinn.is" class="reveal-pop reveal-delay-3">Spyrja um leik</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                                    <div class="team-roster__row team-roster__head">
+                        <div class="team-roster__head-label">Leikur</div>
+                        <div class="team-roster__head-label">Keppni</div>
+                        <div class="team-roster__head-label">Íþrótt</div>
+                        <div class="team-roster__head-label"></div>
+                    </div>
+
+                    <ul class="team-roster__list list-unstyled">
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:30</span></div>
+                                        <h3 class="team-roster__name">Man. City gegn Brighton</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:45</span></div>
+                                        <h3 class="team-roster__name">Bournemouth gegn Aston Villa</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:45</span></div>
+                                        <h3 class="team-roster__name">Sunderland gegn Brentford</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:45</span></div>
+                                        <h3 class="team-roster__name">Fulham gegn Crystal Palace</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:45</span></div>
+                                        <h3 class="team-roster__name">Genoa gegn Juventus</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position"></div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">20:00</span></div>
+                                        <h3 class="team-roster__name">Liverpool gegn Chelsea</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section data-fixture-date="2026-10-29" class="team-roster team-roster--chaos">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <div class="team-roster__intro">
+                                            <div class="team-roster__logo image100 reveal-up"><h2 class="olver-day">Í dag<br><span>29. október</span></h2></div>
+                                                                <div class="team-roster__copy reveal-up reveal-delay-1"><p>2 leikir</p></div>
+                                        <div class="site-button pink team-roster__tickets">
+                        <a href="mailto:sportbarinn@sportbarinn.is" class="reveal-pop reveal-delay-3">Spyrja um leik</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                                    <div class="team-roster__row team-roster__head">
+                        <div class="team-roster__head-label">Leikur</div>
+                        <div class="team-roster__head-label">Keppni</div>
+                        <div class="team-roster__head-label">Íþrótt</div>
+                        <div class="team-roster__head-label"></div>
+                    </div>
+
+                    <ul class="team-roster__list list-unstyled">
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:15</span></div>
+                                        <h3 class="team-roster__name">Tindastóll gegn Álftanes</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position"></div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Körfubolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+<li class="team-roster__player reveal-slide">
+                                <div class="team-roster__row">
+                                    <div class="team-roster__identity">
+                                        <div class="team-roster__headshot"><span class="olver-time">19:45</span></div>
+                                        <h3 class="team-roster__name">Everton gegn Newcastle</h3>
+                                    </div>
+                                    <div class="team-roster__meta team-roster__meta--position">Deildabikar</div>
+                                    <div class="team-roster__meta team-roster__meta--hometown">Fótbolti</div>
+                                    <div class="team-roster__social"></div>
+                                    <div class="team-roster__action">
+                                                                                    <div class="site-button blue">
+                                                <span class="olver-roster-pill">Í beinni</span>
+                                            </div>
+                                                                            </div>
+                                </div>
+                            </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer class="site-footer" id="heimsokn">
+    <div class="footer-main site-radius noise">
+        <div class="container-fluid">
+            <div class="row gx-5">
+                <div class="col-lg-3 col-md-4 footer-first-column order-md-1 order-2">
+                    <!-- Menu -->
+                    <div class="footer-menu-wrapper mb-4">
+                        <nav class="footer-nav"><ul id="menu-footer-menu" class="footer-menu-list"><li id="menu-item-10021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10021"><a href="leikir.html">Leikir</a></li>
+<li id="menu-item-10020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10020"><a href="matsedill.html">Matseðill</a></li>
+<li id="menu-item-10019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10019"><a href="index.html#home-preshow">Salir</a></li>
+<li id="menu-item-10018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10018"><a href="#heimsokn">Heimsókn</a></li>
+</ul></nav>                    </div>
+                    
+                                                                
+                                    </div>
+                <div class="col-lg-3 col-md-4 order-3">
+                    <!-- Content Sections (stacked vertically) -->
+                                                                        <div class="footer-content-section">
+                                                                    <h4 class="footer-section-title capitals">Hafðu samband</h4>
+                                                                                                    <div class="footer-section-content">
+                                        <p><a href="tel:5336220">533 6220</a></p>
+<p><a href="mailto:sportbarinn@sportbarinn.is">sportbarinn@sportbarinn.is</a></p>
+                                    </div>
+                                                            </div>
+                                                            </div>
+                    
+                
+
+                <!-- Third Column: Form -->
+                <div class="col-lg-4 order-lg-3 order-4">
+                                                                <div class="footer-form-wrapper">
+                                                                                        <div class="footer-form">
+                                    <h3>Komdu í heimsókn</h3>
+                                    <p>Glæsibær, Álfheimar 74, 104 Reykjavík</p>
+                                    <p>Sunnudaga til miðvikudaga 12:00 til 00:00<br>Fimmtudaga til laugardaga 12:00 til 01:00<br>Eldhús 12:00 til 21:00</p>
+                                    <p><a href="https://maps.google.com/?q=Álfheimar+74,+104+Reykjavík" target="_blank" rel="noopener">Opna í korti</a></p>                                </div>
+                                                    </div>
+                                                                
+                                    </div>
+
+                <!-- 4th Column: Social Media Icons -->
+                <div class="col-lg-2 col-md-4 order-lg-4 order-md-3 order-1">
+                                            <div class="footer-social-links">
+                                    <a href="https://www.facebook.com/sportbarinn.is" target="_blank" rel="noopener noreferrer" class="footer-social-link">Facebook</a>
+                                </div>
+                                    </div>
+            </div>
+
+            <!-- Ölver Logo & Contact Row -->
+            <div class="row footer-logo-row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0 text-center text-lg-start order-lg-1 order-2">
+                                            <div class="footer-boomball-logo">
+                            <img loading="lazy" src="assets/img/logo-gold.webp" alt="Sportbarinn Ölver" />
+                        </div>
+                                    </div>
+
+                <div class="col-lg-4 text-lg-end order-lg-2 order-1">
+                                                                <p class="footer-inbox-text">Sjáumst á Ölver</p>
+                                                                <a href="mailto:sportbarinn@sportbarinn.is" class="footer-contact-email">sportbarinn@sportbarinn.is</a>
+                                        <p class="copyright-text">© 2026 Sportbarinn Ölver</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright & Disclaimer Bar -->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-end">
+                <div class="col-lg-4">
+                                            <p class="disclaimer-text">Frumgerð frá SNDR Studio. Ekki opinber vefur Ölvers. <small>Ljósmynd: mbl.is</small></p>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/olver.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/gsap-scrolltrigger.min.js"></script>
+<script src="js/st-refresh.js"></script>
+<script src="js/gsap-scrollto.min.js"></script>
+<script src="js/site.min.js"></script>
+<script src="js/components/smooth-scroll.js"></script>
+<script src="js/components/reveal.js"></script>
+<script src="js/components/teams-roster.js"></script>
+<script src="js/leikir.js"></script>
+</body>
+</html>
