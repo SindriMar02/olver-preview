@@ -1,68 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-01T12:39:35.708Z",
+ "fetchedAt": "2026-11-02T01:42:12.429Z",
  "days": [
-  {
-   "date": "2026-11-01",
-   "matches": [
-    {
-     "time": "15:15",
-     "home": "Racing Santander",
-     "away": "Real Madrid",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "16:30",
-     "home": "Liverpool",
-     "away": "Arsenal",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "18:00",
-     "home": "NFL",
-     "away": "** Red Zone **",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "18:00",
-     "home": "Bills",
-     "away": "Ravens",
-     "comp": "NFL",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Juventus",
-     "away": "Napoli",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "F1 Mexikó",
-     "away": "Kappakstur",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:30",
-     "home": "Magic",
-     "away": "Celtics",
-     "comp": "NBA",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "21:25",
-     "home": "Broncos",
-     "away": "Chiefs",
-     "comp": "NFL",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-02",
    "matches": [
@@ -70,6 +9,222 @@
      "time": "20:00",
      "home": "Newcastle",
      "away": "Everton",
+     "comp": "",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "matches": [
+    {
+     "time": "17:45",
+     "home": "Galatasaray",
+     "away": "Stuttgart",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:45",
+     "home": "Shakhtar Donetsk",
+     "away": "Sporting Lissabon",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Man. Utd.",
+     "away": "Roma",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Barcelona",
+     "away": "Aston Villa",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Atl. Madrid",
+     "away": "Bayern Munchen",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Villareal",
+     "away": "PSG",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Bodö/Glimt",
+     "away": "Lille",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "22:00",
+     "home": "– Meistaradeildarmörkin –",
+     "away": "",
+     "comp": "",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "matches": [
+    {
+     "time": "17:45",
+     "home": "Fenerbache",
+     "away": "Liverpool",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:45",
+     "home": "AEK",
+     "away": "Real Madrid",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:20",
+     "home": "ÍSLAND",
+     "away": "Úkraína Undank. EM í handb.",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Slavia Prag",
+     "away": "Arsenal",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Leipzig",
+     "away": "Man. City",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Bor. Dortmund",
+     "away": "Real Betis",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Viking",
+     "away": "Sabah",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Porto",
+     "away": "Napoli",
+     "comp": "Meistaradeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "22:00",
+     "home": "– Meistaradeildarmörkin –",
+     "away": "",
+     "comp": "",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "matches": [
+    {
+     "time": "17:45",
+     "home": "Crystal Palace",
+     "away": "Hoffenheim",
+     "comp": "Evrópudeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:45",
+     "home": "Sparta Prag",
+     "away": "Bournemouth",
+     "comp": "Evrópudeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:45",
+     "home": "Real Sociedad",
+     "away": "Lyon",
+     "comp": "Evrópudeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:45",
+     "home": "Midtjylland",
+     "away": "Ajax",
+     "comp": "Sambandsdeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:15",
+     "home": "Höttur",
+     "away": "Tindastóll",
+     "comp": "Körfubolti",
+     "sport": "Körfubolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Sunderland",
+     "away": "Dinamo Zagreb",
+     "comp": "Evrópudeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Getafe",
+     "away": "Brighton",
+     "comp": "Sambandsdeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "AZ Alkmaar",
+     "away": "Juventus",
+     "comp": "Evrópudeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "FC Kaupmannahöfn",
+     "away": "Iberia",
+     "comp": "Sambandsdeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Monaco",
+     "away": "Nordsjælland",
+     "comp": "Sambandsdeildin",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "matches": [
+    {
+     "time": "20:00",
+     "home": "Everton",
+     "away": "Coventry",
      "comp": "",
      "sport": "Fótbolti"
     }
