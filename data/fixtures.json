@@ -1,68 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-03T01:43:36.378Z",
+ "fetchedAt": "2026-11-04T02:32:35.015Z",
  "days": [
-  {
-   "date": "2026-11-03",
-   "matches": [
-    {
-     "time": "17:45",
-     "home": "Galatasaray",
-     "away": "Stuttgart",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:45",
-     "home": "Shakhtar Donetsk",
-     "away": "Sporting Lissabon",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Man. Utd.",
-     "away": "Roma",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Barcelona",
-     "away": "Aston Villa",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Atl. Madrid",
-     "away": "Bayern Munchen",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Villareal",
-     "away": "PSG",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Bodö/Glimt",
-     "away": "Lille",
-     "comp": "Meistaradeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "22:00",
-     "home": "– Meistaradeildarmörkin –",
-     "away": "",
-     "comp": "",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-04",
    "matches": [
