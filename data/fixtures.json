@@ -1,6 +1,6 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-06T01:21:35.901Z",
+ "fetchedAt": "2026-11-06T08:15:37.828Z",
  "days": [
   {
    "date": "2026-11-06",
@@ -11,6 +11,161 @@
      "away": "Coventry",
      "comp": "",
      "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "matches": [
+    {
+     "time": "12:30",
+     "home": "Leeds",
+     "away": "Tottenham",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "14:30",
+     "home": "Mainz 05",
+     "away": "Bayern Munchen",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "15:00",
+     "home": "Arsenal",
+     "away": "Hull",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "15:00",
+     "home": "Fulham",
+     "away": "Newcastle",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:30",
+     "home": "Nott. Forest",
+     "away": "Man. City",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "18:00",
+     "home": "F1 Brazilia",
+     "away": "Tímataka",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Valencia",
+     "away": "Real Madrid",
+     "comp": "",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "matches": [
+    {
+     "time": "14:00",
+     "home": "Crystal Palace",
+     "away": "Liverpool",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "14:00",
+     "home": "Sunderland",
+     "away": "Chelsea",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "14:00",
+     "home": "Ipswich",
+     "away": "Bournemouth",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "14:00",
+     "home": "Brighton",
+     "away": "Brentford",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "16:00",
+     "home": "Eistland",
+     "away": "ÍSLAND",
+     "comp": "Undank. EM í handb.",
+     "sport": "Handbolti"
+    },
+    {
+     "time": "16:30",
+     "home": "Man. Utd.",
+     "away": "Aston Villa",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "F1 Brasilía",
+     "away": "Kappakstur",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "18:00",
+     "home": "NFL",
+     "away": "** Red Zone **",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "18:00",
+     "home": "Patriots",
+     "away": "Packers",
+     "comp": "NFL",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Fiorentina",
+     "away": "Juventus",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "20:00",
+     "home": "Atl. Madrid",
+     "away": "Barcelona",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "21:20",
+     "home": "Commanders",
+     "away": "Rams",
+     "comp": "NFL",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "matches": [
+    {
+     "time": "19:15",
+     "home": "Tindastóll",
+     "away": "ÍR",
+     "comp": "Körfubolti",
+     "sport": "Körfubolti"
     }
    ]
   }
