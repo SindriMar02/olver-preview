@@ -1,19 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-06T08:15:37.828Z",
+ "fetchedAt": "2026-11-07T01:35:45.400Z",
  "days": [
-  {
-   "date": "2026-11-06",
-   "matches": [
-    {
-     "time": "20:00",
-     "home": "Everton",
-     "away": "Coventry",
-     "comp": "",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-07",
    "matches": [
