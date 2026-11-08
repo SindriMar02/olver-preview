@@ -1,61 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-07T01:35:45.400Z",
+ "fetchedAt": "2026-11-08T02:02:03.999Z",
  "days": [
-  {
-   "date": "2026-11-07",
-   "matches": [
-    {
-     "time": "12:30",
-     "home": "Leeds",
-     "away": "Tottenham",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "14:30",
-     "home": "Mainz 05",
-     "away": "Bayern Munchen",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "15:00",
-     "home": "Arsenal",
-     "away": "Hull",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "15:00",
-     "home": "Fulham",
-     "away": "Newcastle",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:30",
-     "home": "Nott. Forest",
-     "away": "Man. City",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "18:00",
-     "home": "F1 Brazilia",
-     "away": "Tímataka",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "20:00",
-     "home": "Valencia",
-     "away": "Real Madrid",
-     "comp": "",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-08",
    "matches": [
