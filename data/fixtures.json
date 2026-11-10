@@ -1,19 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-09T07:38:15.043Z",
+ "fetchedAt": "2026-11-10T01:42:00.919Z",
  "days": [
-  {
-   "date": "2026-11-09",
-   "matches": [
-    {
-     "time": "19:15",
-     "home": "Tindastóll",
-     "away": "ÍR",
-     "comp": "Körfubolti",
-     "sport": "Körfubolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-11",
    "matches": [
