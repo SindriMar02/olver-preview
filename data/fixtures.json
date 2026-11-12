@@ -1,19 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-10T01:42:00.919Z",
+ "fetchedAt": "2026-11-12T00:00:21.244Z",
  "days": [
-  {
-   "date": "2026-11-11",
-   "matches": [
-    {
-     "time": "19:00",
-     "home": "Írland",
-     "away": "ÍSLAND",
-     "comp": "Forkeppni EM kvk. í Körfu",
-     "sport": "Körfubolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-12",
    "matches": [
