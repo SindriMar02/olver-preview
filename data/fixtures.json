@@ -1,6 +1,6 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-13T03:07:37.658Z",
+ "fetchedAt": "2026-11-13T18:38:44.513Z",
  "days": [
   {
    "date": "2026-11-13",
@@ -58,6 +58,217 @@
      "time": "19:45",
      "home": "Luxemburg",
      "away": "Eistland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "matches": [
+    {
+     "time": "17:00",
+     "home": "Noregur",
+     "away": "Wales",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Georgía",
+     "away": "Ungverjaland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Portugal",
+     "away": "Danmörk",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Svíþjóð",
+     "away": "Bosnía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Austurríki",
+     "away": "Írland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "N-Írland",
+     "away": "Úkraína",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Rúmenía",
+     "away": "Póland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "matches": [
+    {
+     "time": "14:00",
+     "home": "Lettland",
+     "away": "Armenía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "14:00",
+     "home": "Kýpur",
+     "away": "Svartfjallaland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Belarus",
+     "away": "Albanía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Finnland",
+     "away": "San Marino",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "18:00",
+     "home": "NFL",
+     "away": "** Red Zone **",
+     "comp": "",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "18:00",
+     "home": "Packers",
+     "away": "Vikings",
+     "comp": "NFL",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Spánn",
+     "away": "England",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Frakkland",
+     "away": "Tyrkland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Belgía",
+     "away": "Ítalía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Króatía",
+     "away": "Tékkland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "21:20",
+     "home": "Cowboys",
+     "away": "49ers",
+     "comp": "NFL",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "matches": [
+    {
+     "time": "15:00",
+     "home": "Færeyjar",
+     "away": "Moldóva",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "15:00",
+     "home": "Kazakhstan",
+     "away": "Slóvakía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "ÍSLAND",
+     "away": "Luxemburg",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Eistland",
+     "away": "Búlgaría",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Litháen",
+     "away": "Liechtenstein",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "17:00",
+     "home": "Grikkland",
+     "away": "ÍSLAND",
+     "comp": "Undank. EM U-21",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Þýzkaland",
+     "away": "Holland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Swiss",
+     "away": "Skotland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Grikkland",
+     "away": "Serbía",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "N-Makedonía",
+     "away": "Slóvenía",
      "comp": "Þjóðadeildin",
      "sport": "Fótbolti"
     }
