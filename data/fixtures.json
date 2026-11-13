@@ -1,68 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-12T00:00:21.244Z",
+ "fetchedAt": "2026-11-13T03:07:37.658Z",
  "days": [
-  {
-   "date": "2026-11-12",
-   "matches": [
-    {
-     "time": "13:00",
-     "home": "ÍSLAND",
-     "away": "Grikkland",
-     "comp": "Undank. EM U-21",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:00",
-     "home": "Tyrkland",
-     "away": "Belgía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:00",
-     "home": "Armenía",
-     "away": "Kýpur",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "England",
-     "away": "Króatía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Ítalía",
-     "away": "Frakkland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Tékkland",
-     "away": "Spánn",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Albanía",
-     "away": "Finnland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Svartfjallaland",
-     "away": "Lettland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-13",
    "matches": [
