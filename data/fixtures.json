@@ -1,68 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-13T18:38:44.513Z",
+ "fetchedAt": "2026-11-14T00:08:46.266Z",
  "days": [
-  {
-   "date": "2026-11-13",
-   "matches": [
-    {
-     "time": "17:00",
-     "home": "Moldóva",
-     "away": "Kazakhstan",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Búlgaría",
-     "away": "ÍSLAND",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Serbía",
-     "away": "Þýzkaland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Holland",
-     "away": "Grikkland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Slóvakía",
-     "away": "Færeyjar",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Slóvenía",
-     "away": "Swiss",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Skotland",
-     "away": "N-Makedonía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Luxemburg",
-     "away": "Eistland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-14",
    "matches": [
