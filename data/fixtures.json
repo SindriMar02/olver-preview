@@ -1,61 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-14T00:08:46.266Z",
+ "fetchedAt": "2026-11-15T02:22:14.681Z",
  "days": [
-  {
-   "date": "2026-11-14",
-   "matches": [
-    {
-     "time": "17:00",
-     "home": "Noregur",
-     "away": "Wales",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:00",
-     "home": "Georgía",
-     "away": "Ungverjaland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Portugal",
-     "away": "Danmörk",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Svíþjóð",
-     "away": "Bosnía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Austurríki",
-     "away": "Írland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "N-Írland",
-     "away": "Úkraína",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Rúmenía",
-     "away": "Póland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-15",
    "matches": [
