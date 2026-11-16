@@ -1,89 +1,7 @@
 {
  "source": "https://sportbarinn.is/boltinn/",
- "fetchedAt": "2026-11-15T02:22:14.681Z",
+ "fetchedAt": "2026-11-16T01:19:15.491Z",
  "days": [
-  {
-   "date": "2026-11-15",
-   "matches": [
-    {
-     "time": "14:00",
-     "home": "Lettland",
-     "away": "Armenía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "14:00",
-     "home": "Kýpur",
-     "away": "Svartfjallaland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:00",
-     "home": "Belarus",
-     "away": "Albanía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "17:00",
-     "home": "Finnland",
-     "away": "San Marino",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "18:00",
-     "home": "NFL",
-     "away": "** Red Zone **",
-     "comp": "",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "18:00",
-     "home": "Packers",
-     "away": "Vikings",
-     "comp": "NFL",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Spánn",
-     "away": "England",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Frakkland",
-     "away": "Tyrkland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Belgía",
-     "away": "Ítalía",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "19:45",
-     "home": "Króatía",
-     "away": "Tékkland",
-     "comp": "Þjóðadeildin",
-     "sport": "Fótbolti"
-    },
-    {
-     "time": "21:20",
-     "home": "Cowboys",
-     "away": "49ers",
-     "comp": "NFL",
-     "sport": "Fótbolti"
-    }
-   ]
-  },
   {
    "date": "2026-11-16",
    "matches": [
@@ -155,6 +73,84 @@
      "home": "N-Makedonía",
      "away": "Slóvenía",
      "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "matches": [
+    {
+     "time": "19:15",
+     "home": "ÍSLAND",
+     "away": "Azerbaijan",
+     "comp": "Forkeppni EM kvk. í Körfu",
+     "sport": "Körfubolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Danmörk",
+     "away": "Noregur",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Póland",
+     "away": "Svíþjóð",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Wales",
+     "away": "Portúgal",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Írland",
+     "away": "Kosovo",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    },
+    {
+     "time": "19:45",
+     "home": "Ungverjaland",
+     "away": "N-Írland",
+     "comp": "Þjóðadeildin",
+     "sport": "Fótbolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "matches": [
+    {
+     "time": "19:15",
+     "home": "Álftanes",
+     "away": "Grindavík",
+     "comp": "Körfubolti",
+     "sport": "Körfubolti"
+    },
+    {
+     "time": "19:15",
+     "home": "ÍR",
+     "away": "KR",
+     "comp": "Körfubolti",
+     "sport": "Körfubolti"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "matches": [
+    {
+     "time": "19:30",
+     "home": "Bayern Munchen",
+     "away": "Köln",
+     "comp": "",
      "sport": "Fótbolti"
     }
    ]
